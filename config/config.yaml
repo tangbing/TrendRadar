@@ -25,6 +25,7 @@ crawler:
 
 # 推送模式选择
 report:
+  push_window.enabled: false #  设置为 false（关闭推送时间窗口控制）
   mode: "daily" # 可选: "daily"|"incremental"|"current"
   rank_threshold: 5 # 排名高亮阈值
   sort_by_position_first: false # 排序优先级：true=先按配置位置排序，false=先按热点条数排序
